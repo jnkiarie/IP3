@@ -119,14 +119,14 @@ $(document).ready(function () {
         // Highjack the submit button, we will do it ourselves
         e.preventDefault();
         // uncomment next line & check console to see if button works
-        //alert('submit button worked!');
+        alert('submit button worked!');
     
         // store all the form data in a variable
         var formData = $(this).serialize();
     
         // Let's make the call!
         // Replace the path to your own endpoint!
-        $.getJSON('https://jnkiarie.github.io/moringa-ip-week-3/', formData, function (data) {
+        $.getJSON('', formData, function (data) {
             // uncomment next line to see your data output in console
             alert(data);
     
